@@ -1,0 +1,15 @@
+{
+    "name": "cblinf/cyber-blog",
+    "description": "Blog desenvolvido com PHP",
+    "require": {
+        "twig/twig": "^3.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        },
+        "files": [
+            "app/config/config.php"
+        ]
+    }
+}
